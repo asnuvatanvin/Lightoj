@@ -53,8 +53,8 @@ int main()
             //p has to be a number that can divide l and not m
 
             ll p = l / m; // p contains the prime factor that should be in l and not in m
-            //for this gcd(p,m) has to be equal to zero
-            //until gcd(p,m) not equal to zero all the common factors are transferred to p from m
+            //for this gcd(p,m) has to be equal to one
+            //until gcd(p,m) not equal to one all the common factors are transferred to p from m
             //final p is the answer
             ll g = gcd(p, m);
             while (g != 1)
